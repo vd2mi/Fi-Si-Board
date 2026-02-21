@@ -11,9 +11,9 @@
 #define MY_RED   0xFFE0
 #define MY_GRAY  0x7BEF
 
-const char* ssid = "Abofires-4G";
-const char* password = "05058421A";
-const char* ws_host = "fisi-production.up.railway.app";
+const char* ssid = "ur wifi name";
+const char* password = "ur wifi password";
+const char* ws_host = "ur WS link";
 
 TFT_eSPI tft = TFT_eSPI();
 WebSocketsClient webSocket;
